@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://source.unsplash.com/random/?clouds);
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    font-family: 'Joan', serif;
+    background-size: cover;
+    
+    font-weight: bolder;
+}
+
+
+.app-main{
+    width: 55vh;
+    margin: 100px auto;
+    background-color: rgba(255, 255, 255, 0.345);
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    
+    
+}
+
+.app-main > * {
+    margin-bottom: 25px;
+}
+
+.input-box {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.412);
+    border: none;
+    outline: none;
+    color: #000000;
+    font-size: 1.5rem;
+    height: 50px;
+    border-radius: 15px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.input-box:hover {
+    background-color: rgba(168, 233, 251, 0.699);
+}
+
+.weather-details {
+    
+    color: #000000;
+    padding: 20px;
+    line-height: 3rem;
+    border-radius: 10px;
+    background-color: rgba(254, 254, 254, 0.512);
+    height: 50vh;
+    font-size: 25px;
+}
+
+.location-details {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+.temp {
+    font-size: 50pt;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: 2px 4px rgba(0,0,0,0.3);
+}
+
+.min-max, .weather {
+    font-size: 20px;
+    font-weight: 600;
+    
+}
